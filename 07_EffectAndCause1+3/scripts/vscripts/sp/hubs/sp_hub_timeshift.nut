@@ -4399,6 +4399,8 @@ void function RackTitansThink( var timeZone )
 
 	//thread TitanRackDeploy( "titans_racks_bridge_room_02", timeZone )
 	//delaythread ( 1.5 ) TitanRackDeploy( "titans_racks_bridge_room_03", timeZone )
+	thread TitanRackSpawnersThink( "titans_racks_bridge_room_02" )
+	Thread TitanRackSpawnerThink( "titans_rack_bridge_room_03" )	
 
 }
 
